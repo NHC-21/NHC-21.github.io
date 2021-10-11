@@ -1,0 +1,46 @@
+<html>
+
+    <head>
+        <title>
+        Imersão Dev - Aula 05
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="page-title">
+            Conversor de valores
+            </h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+            <p class="page-subtitle">
+            Insira os valores
+            </p>
+            <div class="form-wrapper">
+                <select id="tipoValor1">
+                    <option value="real">Real</option>
+                    <option value="dolarAmericano">Dólar Americano</option>
+                    <option value="euro">Euro</option>
+                </select>
+
+                <select id="tipoValor2">
+                    <option value="real">Real</option>
+                    <option value="dolarAmericano">Dólar Americano</option>
+                    <option value="euro">Euro</option>
+                </select>
+            </div>
+
+            <input type="number" id="valor"> <br>
+
+            <button type="submit" id="btnConverter" style="width: 355px;" onclick="Converter()">Converter</button>
+        </div>
+
+        <h2 id="resultado" style="color:white"></h2>
+        <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <title>
+    AluraFlix 2.0
+  </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      AluraNet
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    <p class="page-subtitle">
+      Qual imagem de filme gostaria de por aqui?
+    </p>
+    <div>
+        <input type="text" id="nome-filme" placeholder="Nome do filme">
+        <input type="url" id="img-filme" placeholder="Link da img .jpg"> <br>
+        <input type="url" id="trailer-filme" placeholder="Link do trailer"> 
+        <input type="url" id="trailer-filme" placeholder="Link do filme">  <br>
+        <button id="btnExecutar" onClick="Executar()">Executar</button>
+        <select id="opcoesCategoria">
+          <option value="Adicionar">Adicionar</option>
+          <option value="Excluir">Excluir</option>
+        </select><br>
+    </div>
+
+    <div id="listaFilmes"></div>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+
+  <script src="main.js"></script>
+</body>
+
+</html>      
